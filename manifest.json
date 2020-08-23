@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+    "name": "accomplish",
+    "description": "modern chrome extension todo manager",
+    "version": "1.0.0",
+    "content_scripts": [
+        {
+          "matches": ["<all_urls>"],
+          "css": ["accomplish.css"],
+          "js": ["accomplish.js"]
+        }
+    ],
+    "permissions": [
+      "storage",
+      "<all_urls>"
+    ],
+    "icons": {
+      "16": "icons/accomplish16x16.jpg",
+      "48": "icons/accomplish48x48.jpg",
+      "128": "icons/accomplish128x128.jpg"
+    }
+  }
+  
