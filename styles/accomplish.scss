@@ -1,0 +1,118 @@
+body 
+{
+    background:orange;
+}
+
+.accomplish__heading
+{
+    background:#111;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.accomplish__list
+{
+    padding-left:20px;
+}
+
+.accomplish__container
+{
+    font-family: 'Oswald','Consolas', Courier;
+    font-weight: 300;
+    background:#33333f;
+    bottom:0px;
+    right:10px;
+    position: absolute;
+    width:40%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color:#eee;
+}
+
+ol
+{
+    margin:0;
+    padding:0;
+}
+
+.todo__li
+{
+    display: flex;
+    align-items: center;
+    padding:5px;
+    div
+    {
+        display: inline-flex;
+    }
+}
+
+.todo__checkbox
+{
+    width:10%;
+    justify-content: center;
+}
+
+.todo__text
+{
+    width:70%;
+    
+}
+
+.todo__category
+{
+    width:15%;
+    font-size: 12px;
+}
+
+.line-through
+{
+    text-decoration:line-through;
+}
+
+// .todo 
+// {
+//     padding: {
+//         top:5px;
+//         bottom:5px;
+//     }
+//     border-top:1px solid orange;
+//     width:100%;
+//     display: inline-flex;
+//     align-items: center;
+//     span.category
+//     {
+//         padding-left:5px;
+//     }
+// }
+
+// .options-container
+// {
+//     width: 20%;
+//     justify-content: center;
+//     background:red;
+//     display: inline-flex;
+//     height: auto;
+//     position: absolute;
+// }
+
+// .menu
+// {
+//     height:20px;
+//     width: 20px;
+//     font-color:red !important;
+    
+// }
+
+.orange 
+{
+    color:orange;
+}
+
+.lightblue
+{
+    color: lightblue;
+}
+.bold
+{
+    font-weight: 500;
+}
