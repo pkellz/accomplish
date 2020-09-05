@@ -1,0 +1,13 @@
+Requirements
+    - Add new task to list
+    - Delete task from list
+    - Edit task
+    - Assign category to task (New, In Progress, Next Up)
+    - Create new list (of tasks)
+    - Remove list
+    - Persist app data in local storage
+    - Modify app settings
+    - Modern feeling UX
+    - Default in a 'closed' state
+    - Open app when arrow is clicked
+    
